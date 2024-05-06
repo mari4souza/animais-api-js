@@ -1,0 +1,61 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('/src/imagens/grupo-de-animais-fofos-em-fundo-branco.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0.9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 25px;
+}
+
+#animal-list {
+    list-style: none;
+    padding: 0;
+
+    margin-bottom: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    margin: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
